@@ -1,0 +1,20 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (10000000) [ID]
+      ,[AssetID]
+      ,[UnitID]
+      ,[Value]
+      ,[RecordTime]
+      ,[RecordDate]
+      ,[PersonelID]
+      ,[OutofRange]
+      ,[ValueType]
+      ,[MobileID]
+      ,[DateTime]
+      ,[TimeStamp]
+      ,[Job]
+      ,[IsDeleted]
+      ,[ShiftCode]
+      ,[OnTime]
+  FROM [DSAS].[PDA].[Periodic_Values]
+  Where [UnitID]=11 and
+  ([AssetID]=8341 or [AssetID]=8342 or [AssetID]=8343 or [AssetID]=8344 or [AssetID]=8346 or [AssetID]=9286 or [AssetID]=9287 or [AssetID]=9375)
