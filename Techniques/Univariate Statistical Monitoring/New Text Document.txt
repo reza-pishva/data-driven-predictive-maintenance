@@ -1,0 +1,4 @@
+Normal                   #4FC05A
+Normal (Minor Change)    #ECF16F
+Warning                  #E66C37
+Action Required          #A1343C 

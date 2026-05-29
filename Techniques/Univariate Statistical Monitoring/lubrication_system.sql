@@ -16,4 +16,5 @@ SELECT TOP (10000000) [ID]
       ,[ShiftCode]
       ,[OnTime]
   FROM [DSAS].[PDA].[Periodic_Values]
-  Where ([AssetID]=12697)
+  Where [UnitID]=11 and
+  ([AssetID]=9357 or [AssetID]=9343 or [AssetID]=8341 or [AssetID]=8342 or [AssetID]=8343 or [AssetID]=8344 or [AssetID]=8346 or [AssetID]=9286 or [AssetID]=9287 or [AssetID]=9375)
